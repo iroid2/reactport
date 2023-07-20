@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap");
+// $popFont: "Poppins", sans-serif;
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  .about-container {
+    background-color: white;
+    width: 100%;
+    min-height: 100%;
+    font-family: "Poppins", sans-serif;
+    .about-hero {
+      width: 100%;
+      height: 60%;
+      .top-abt-hero {
+        position: relative;
+      }
+      .bottm-abt-hero {
+        width: 100%;
+        display: flex;
+        min-height: 85%;
+        gap: 1.5rem;
+        padding: 1rem 0.3rem;
+        .left-btm-abt {
+          width: 34%;
+          position: relative;
+          border-radius: 20px;
+          overflow: hidden;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .right-btm-abt {
+          width: 78%;
+          padding: 0.4rem 3rem;
+          p {
+            line-height: 16px;
+            line-height: 28px;
+            margin-top: 1rem;
+            color: rgb(68, 86, 108);
+            font-weight: 400;
+            color: #49566c;
+          }
+          .personalInfor {
+            //   background-color: red;
+            margin-top: 1.2rem;
+            width: 100%;
+            .personDet {
+              flex-wrap: wrap;
+              gap: 1.2rem;
+              width: 100%;
+              justify-content: flex-start;
+              h1 {
+                font-weight: 400;
+              }
+              .phone {
+                width: 45%;
+                gap: 0.8rem;
+                //     background-color: rgb(24, 20, 219);
+                .leftPhone {
+                  display: flex;
+                  width: 10%;
+                  h2 {
+                    margin: 0 auto;
+                    border-radius: 4px;
+                    padding: 2px;
+                    border-color: 1px solid #faf6f6;
+                    // border: 0.2px solid #f6f4f4;
+                    background-color: white;
+                  }
+                }
+                .rightPhone {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 0.3rem;
+                  justify-tracks: flex-start;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .services {
+      width: 100%;
+      // margin-top: 1.3rem;
+      .servicesHeader {
+        width: 100%;
+        padding: 2rem 0.1rem;
+      }
+      .servicesList {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        flex-wrap: wrap;
+        gap: 1.6rem;
+        .serviceCard {
+          border-radius: 9px;
+          padding: 1.6rem 0.5rem;
+          background-color: #fefaf0;
+          .servIcon {
+            padding-top: 1rem;
+            img {
+              width: 58px;
+            }
+          }
+          .servDetails {
+            padding-right: 1rem;
+            p {
+              line-height: 1.9rem;
+            }
+            h3 {
+              padding: 0.5rem 0;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap");
+$generalgradient: linear-gradient(to right, #f7585f, #e02974);
+$popFont: "Poppins", sans-serif;
+.footer {
+  // background-color: rgb(186, 19, 212);
+  text-align: center;
+}
+// .fontPop {
+//   // font-family: $popFont;
+// }
+.fontRob {
+  font-family: "Roboto Slab", serif;
+}
+.globHeading {
+  font-size: 35px;
+  line-height: 60px;
+  font-family: "Roboto Slab", serif;
+  padding: 2rem 0.2rem;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 60px;
+  color: rgb(0, 0, 0);
+  // font-variant: normal;
+}
+.heading {
+  gap: 1.4rem;
+  .line {
+    width: 200px;
+    height: 2px;
+    background: $generalgradient;
+    align-self: center;
+  }
+}
+.globContainerPadding {
+  padding: 0.2rem 5rem;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 3rem;
+  font-family: "Roboto Slab", serif;
+  //   border: 1px solid rgb(230, 226, 226);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+.fleStart {
+  display: flex;
+  justify-content: flex-start;
+}
+.alignSelfC {
+  align-self: center;
+}
+.iconPad {
+  padding: 1.2px 4px;
+  // background-color: red;
+  align-self: center;
+  border-radius: 2px;
+}
+h3 {
+  font-weight: 400;
+}
